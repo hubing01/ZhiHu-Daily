@@ -6,7 +6,7 @@
     <mu-drawer :open="open" :docked="docked" @close="toggle()">
       <mu-list class="avatar">
         <mu-list-item title="请登录" disabled>
-          <mu-avatar  slot="left" src="static/images/uicon.jpg" :size="30"/>
+          <mu-avatar  slot="left" src="static/images/uicon.jpg" :size="40"/>
         </mu-list-item>
       </mu-list>
       <mu-list class="operation">
@@ -97,10 +97,10 @@
     font-size: 28px;
   }
   .avatar .mu-item{
-    padding-left:120px;
+    padding-left:140px;
   }
   .operation{
-    margin-top:-80px;
+    margin-top:-60px;
   }
   .operation .mu-item{
     float: left;
