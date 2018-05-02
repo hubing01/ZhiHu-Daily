@@ -63,7 +63,7 @@
     position: absolute;
     bottom: 12px;
     text-shadow:2px 2px #333;
-    font-size: 44px;
+    font-size: 36px;
   }
 
 </style>

@@ -368,6 +368,21 @@ module.exports = {
     </div>
     </div>`
       }
+    ],
+    classificationList:[
+      {title:'首页'},
+      {title:'日常心理学'},
+      {title:'用户推荐日报'},
+      {title:'电影日报'},
+      {title:'不许无聊'},
+      {title:'设计日报'},
+      {title:'大公司日报'},
+      {title:'财经日报'},
+      {title:'互联网安全'},
+      {title:'开始游戏'},
+      {title:'音乐日报'},
+      {title:'动漫日报'},
+      {title:'体育日报'}
     ]
   }
 };
