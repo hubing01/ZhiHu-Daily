@@ -21,7 +21,7 @@
         </mu-list-item>
       </mu-list>
       <mu-list @itemClick="docked ? '' : toggle()" class="list">
-        <mu-list-item :title="item.title" v-for="item in classificationList">
+        <mu-list-item :title="item.title" v-for="(item,index) in classificationList" :key="index">
           <mu-icon slot="right" value="+"/>
         </mu-list-item>
       </mu-list>

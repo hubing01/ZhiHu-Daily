@@ -1,12 +1,14 @@
 <template>
   <div>
-    <div class="content-item" v-if="contentData" v-for="item in contentData">
-      <div class="content-title">
-        {{item.title}}
-      </div>
-      <div class="content-picture">
-        <img :src="item.src" style="width: 100%;height: 100%">
-      </div>
+    <div class="content-item" v-if="contentData" v-for="(item,index) in contentData">
+      <router-link :to="{ name: 'detials', params: { id: index }}">
+        <div class="content-title">
+          {{item.title}}
+        </div>
+        <div class="content-picture">
+          <img :src="item.src" style="width: 100%;height: 100%">
+        </div>
+      </router-link>
     </div>
   </div>
 </template>
@@ -42,13 +44,11 @@
     height:100%;
     padding-right:2%;
     font-size: 30px;
+    color: rgba(0,0,0,.85);
   }
   .content-picture{
     float: left;
     width:25%;
     height:100%;
-  }
-  .content-title{
-
   }
 </style>

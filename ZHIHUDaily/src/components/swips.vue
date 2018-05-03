@@ -41,7 +41,6 @@
       }
     },
     mounted(){
-        console.log('bannerList',this.bannerList)
     }
   }
 </script>
